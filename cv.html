@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="estilos.css">
+       <title>Curriculum Vitae</title>
+    </head>
+    <body>
+     <!-- Encabezado -->
+        <header>
+            <div>
+                <nav>
+                    <a href="#nav-link" class="miEnlace" data-target="nav-link">| Datos </a>
+                    <a href="#nav-link1" class="miEnlace" data-target="nav-link1"> |Acerca de mi </a>
+                    <a href="#nav-link2" class="miEnlace" data-target="nav-link2">| Educación </a>
+                    <a href="#nav-link3" class="miEnlace" data-target="nav-link3">| Experiencia </a>
+                    <a href="#nav-link4" class="miEnlace" data-target="nav-link4">| Aptitudes </a>
+                </nav>
+            </div>
+        </header>
+  
+  
+        <div id="name" class="nombre" onmouseover="agrandarNombre('name')" onmouseleave="disminuirNombre('name')">
+            <h2>Gabriel Capria</h2>
+        </div>
+
+       <div class="marco">
+         <!-- Foto -->
+            <div class="contenedor-foto">   
+                <div id="imagen">
+                 <img src="IMG-20211102-WA0034.jpg" alt="Foto perosnal" width="90%">
+                </div>
+            </div>
+         <!-- Contenido -->
+            <div id="nav-link1" class="item">
+                <h2>Acerca de mi</h2>
+                <p> Soy un excelente compañero de equipo, organizado y responsable. <br/> Mi rol en una comunidad laboral suele ser el de analista, siempre estoy atento al detalle y los puntos de mejora. A su vez me gusta desarrolarme como motivador debido a que soy consciente del significado del estado animico grupal y siempre encuentro la manera adecuada de generar empatía con mis compañeros. <br/>
+                Actualmente estoy formandome profesionalmente para poder ocupar mi primer empleo en el mundo IT.<br> Estoy entusiasmado por seguir aprendiendo en este campo.</p>
+            </div>
+
+            <div id="nav-link2" class="item2">
+                <h2>Educación</h2>
+                <p> Teclab || Tecnicatura en Programación || Marzo 2021 - En curso ⌛</p> 
+                <p> Argentina Programa || Etapa 1 || Febrero 2023 - Abril 2023 ✔️</p>
+                <p> Argentina Programa || Etapa 2 || Junio 2023 - En curso ⌛</p>
+                <p> Udemy || Front End Web Developer || Noviembre 2022 - Enero 2023 ✔️</p>
+                <p> OpenBootcamp || Web Developer || Junio 2023 - En curso ⌛</p>
+            </div>
+
+            <div id="nav-link" class="datos_personales">
+                <h2>Datos Personales</h2>
+                <h4>◾ Edad : 22 años ◾</h4>
+                <h4>📧 Email : gabrielcapria06@gmail.com</h4>
+                <h4>📱 Teléfono : 1173639452</h4>
+            </div>
+
+            <div id="nav-link3" class="item3">
+                <h2>Experiencia Laboral</h2>
+                <p> Municipalidad de Tres de Febrero || Pasante Educativo || Febrero 2023 - Actualidad</p>
+                <p> Ipconex SA || Asesor Comercial || Marzo 2019 - Noviembre 2022</p>
+            </div>
+      
+            <div id="nav-link4" class="item4">
+                <h2>Aptitudes</h2>
+                <p>◾️ Inglés B1 ◾</p>
+                <p>◾️ Dominio Word y Excel ◾</p>
+            </div>
+
+        </div>
+        <script src="programacion.js"></script>
+    </body>
+</html>
