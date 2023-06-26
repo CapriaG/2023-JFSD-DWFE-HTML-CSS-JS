@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  head + body{
+    background:#001219;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #ededed;
+  }
+  
+  header{
+    display: flex;
+    min-height: 80px;
+    background-color: #001219;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  
+  }
+  
+  header.sticky{
+    position: fixed;
+    width: 10%;
+    border-radius: 15px;
+  }
+  
+  nav a{
+    font-weight: 600;
+    padding-right: 15px;
+  }
+  
+  nav a:hover{
+    color: #e01e37;
+  }
+  
+  .nombre{
+    font-size: 25px;
+    color: #ededed;
+    text-align: center;
+  }
+  
+  .marco{
+    background-color: #dad7cd;
+    margin: 35px 25px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 50px;
+  }
+  
+  .marco::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Foto */
+  #imagen{
+    width: 200px;
+    margin: 10px 11px;
+    display: inline-block;
+  }
+  
+  #imagen:empty{
+    float: right;
+  }
+  
+  .contenedor-foto{
+    background-color: #666c69;
+    width: 200px;
+    margin: 60px 100px 60px 160px;
+    height: 225px;
+    border-radius: 5px;
+    float: left;
+  }
+  
+  /* navegador hacia elementos */
+  
+  #nav-link #nav-link1, #nav-link2, #nav-link3, #nav-link4 {
+    background-color: #ededed;
+    transition: background-color 0.5s ease;
+  }
+  
+  
+  /* Datos Personales */
+  .datos_personales{
+    display: block;
+    background-color: #ededed;
+    border-radius: 3%;
+    margin: 25px 50px;
+    height: 600px;
+    width: 420px;
+    color: #00090d;
+    text-align: center;
+    
+  }
+  
+  .datos_personales h2{
+    font-size: 30px;
+    margin: 25px;
+  }
+  /* contenido */
+  
+  .item{
+    background-color: #ededed;
+    width: 50%;
+    height: 50%;
+    margin: 30px;
+    border-radius: 5%;
+    float: right;
+    scroll-margin-top: 90px;
+  }
+  
+  .item h2{
+    margin: 35px;
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .item p{
+    margin: 5%;
+    padding-bottom: 5%;
+    font-size: larger;
+    color: #00090d;
+  }
+  
+  .item2{
+    background-color: #ededed;
+    width: 50%;
+    color: black;
+    height: 50%;
+    margin: 30px;
+    border-radius: 5%;
+    float: right;
+  }
+  
+  .item2 h2{
+    margin: 35px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .item2 h3{
+    margin: 35px;
+    padding-top: 5px;
+  }
+  
+  .item2 p{
+    margin: 5%;
+    padding-bottom: 5%;
+    font-size: larger;
+    color: #00090d;
+  }
+  
+  .item3{
+    background-color: #ededed;
+    width: 35%;
+    color: black;
+    height: 50%;
+    margin: 46px;
+    border-radius: 5%;
+  }
+  
+  .item3 h2{
+    margin: 20px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .item3 p{
+    margin: 2%;
+    padding-bottom: 5%;
+    font-size: larger;
+    color: #00090d;
+    text-align: center;
+  }
+  
+  .item4{
+    background-color: #ededed;
+    width: 35%;
+    color: black;
+    margin: 46px;
+    border-radius: 5%;
+  }
+  
+  .item4 h2{
+    margin: 5%;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .item4 p{
+    margin: 5%;
+    padding-bottom: 5%;
+    font-size: larger;
+    color: #00090d;
+    text-align: center;
+  }
